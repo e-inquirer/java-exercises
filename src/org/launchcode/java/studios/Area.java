@@ -16,11 +16,15 @@ public class Area {
         System.out.print("Enter a radius: ");
         radius = in.nextDouble();
 
-        area = 3.14 * radius * radius;
+        if (radius <= 0) {
+            System.out.println("Sorry, radii cannot hold a value equal to, or less than, zero.");
+        } else {
+            area = 3.14 * radius * radius;
 
-        System.out.print("The area of a circle of radius ");
-        System.out.print(radius);
-        System.out.print(" is: ");
-        System.out.println(area);
+            System.out.print("The area of a circle of radius ");
+            System.out.print(radius);
+            System.out.print(" is: ");
+            System.out.println(area);
+        }
     }
 }
