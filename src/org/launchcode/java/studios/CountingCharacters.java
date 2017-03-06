@@ -8,6 +8,7 @@ import java.util.Scanner;
 /**
  * Created by ahmed on 2/27/17.
  */
+//
 public class CountingCharacters {
     public static void main(String[] args) {
 
